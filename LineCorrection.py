@@ -38,17 +38,10 @@ def lineCorrector(vehicles):
 # PAINFUL WAY :)(:
 def lineCorrector2():
     vehicles = [1, 2, 3, 4, 5, 6]
-    #print(vehicles)
-    #print(type(vehicles))
 
     # MULTIPLE LINES:
     t = [(vehicles[i], vehicles[i + 1]) for i in range(0, len(vehicles), 2)]
-    # print(type(t))
-    # print(t)
     z = [(b, a) for a, b in t]
-    # print(type(z))
-    # print(z)
-    # return [item for t in z for item in t]
 
     # ONE LINE: (but NOT exactly!:) )
 

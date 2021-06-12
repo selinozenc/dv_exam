@@ -19,8 +19,8 @@ if __name__ == '__main__':
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
     # 1
-    sentenceCorrector(askDarvis())
+    # sentenceCorrector(askDarvis())
 
     # 2
-    # print(lineCorrector(vehiclesList()))
+    print(lineCorrector(vehiclesList()))
 
